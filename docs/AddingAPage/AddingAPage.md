@@ -67,7 +67,7 @@ constraints, such as requiring `Hello/Hello.js` to be renamed
 Following a style in the code that has no automatic effects is just organic
 growth, not convention.  For example, developers reading `./src/containers/index.js`
 must stop and figure out why all subdirectories except `DevTools` are exported.
-(`DevTools`)[`./src/containers/DevTools/DevTools.js`](https://github.com/erikras/react-redux-universal-hot-example/blob/master/src/containers/DevTools/DevTools.js)
+(`DevTools`)[`./src/containers/DevTools/DevTools.jsx`](https://github.com/erikras/react-redux-universal-hot-example/blob/master/src/containers/DevTools/DevTools.jsx)
 contains a single function which should be
 [randomly](https://github.com/erikras/react-redux-universal-hot-example/issues/808)
 moved to `./src/utils` or `./src/helpers`.  Using a convention rule that all 

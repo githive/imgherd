@@ -67,9 +67,9 @@ module.exports = {
   entry: {
     'main': [
       'webpack-hot-middleware/client?path=http://' + host + ':' + port + '/__webpack_hmr',
-      'bootstrap-sass!./src/theme/bootstrap.config.js',
-      'font-awesome-webpack!./src/theme/font-awesome.config.js',
-      './src/client.js'
+      'bootstrap-sass!./src/application/theme/bootstrap.config.js',
+      'font-awesome-webpack!./src/application/theme/font-awesome.config.js',
+      './src/application/client.js'
     ]
   },
   output: {
@@ -95,7 +95,7 @@ module.exports = {
   progress: true,
   resolve: {
     modulesDirectories: [
-      'src',
+      'src/application',
       'node_modules'
     ],
     extensions: ['', '.json', '.js', '.jsx']
